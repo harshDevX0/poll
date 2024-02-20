@@ -1,0 +1,41 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.board {
+  border: 2px solid black;
+  max-width: 400px;
+  padding: 20px;
+  text-align: center; /* Center align the content */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.square {
+  border: 1px solid black;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.info {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+button {
+  margin-top: 20px; /* Add spacing above the button */
+  padding: 10px 20px; /* Increase button padding to make it bigger */
+  font-size: 1.2em;
+}
